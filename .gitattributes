@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+Shooter/.vs/Shooter/v17/Browse.VC.db filter=lfs diff=lfs merge=lfs -text
+Shooter/.vs/Shooter/v17/ipch/cea9424c09ef810c.ipch filter=lfs diff=lfs merge=lfs -text
+Shooter/Intermediate/Build/Win64/x64/ShooterEditor/Development/Engine/SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.pch filter=lfs diff=lfs merge=lfs -text
+Shooter/Intermediate/ProjectFiles/UE5.vcxproj filter=lfs diff=lfs merge=lfs -text

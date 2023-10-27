@@ -1,0 +1,55 @@
+﻿  Using bundled DotNet SDK version: 6.0.302
+  Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" ShooterEditor Win64 Development -Project="E:\Shooter\Shooter.uproject" -WaitMutex -FromMsBuild -Rebuild
+  Log file: C:\Users\User\AppData\Local\UnrealBuildTool\Log.txt
+  Cleaning ShooterEditor binaries...
+  Creating makefile for ShooterEditor (no existing makefile)
+  Parsing headers for ShooterEditor
+    Running Internal UnrealHeaderTool E:\Shooter\Shooter.uproject E:\Shooter\Intermediate\Build\Win64\ShooterEditor\Development\ShooterEditor.uhtmanifest -WarningsAsErrors -installed
+  Total of 18 written
+  Reflection code generated for ShooterEditor in 1.3240912 seconds
+  Building ShooterEditor...
+  Using Visual Studio 2022 14.34.31943 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  [Upgrade]
+  [Upgrade] Using backward-compatible include order. The latest version of UE has changed the order of includes, which may require code changes. The current setting is:
+  [Upgrade]     IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_1
+  [Upgrade] Suppress this message by setting 'IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_2;' in ShooterEditor.Target.cs.
+  [Upgrade] Alternatively you can set this to 'EngineIncludeOrderVersion.Latest' to always use the latest include order. This will potentially cause compile errors when integrating new versions of the engine.
+  [Upgrade]
+  Determining max actions to execute in parallel (6 physical cores, 12 logical cores)
+    Executing up to 6 processes, one per physical core
+    Requested 1.5 GB free memory per action, 1.27 GB available: limiting max parallel actions to 1
+  Building 22 actions with 1 process...
+  [1/22] Resource Default.rc2
+  [2/22] Compile [x64] SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.cpp
+  [3/22] Compile [x64] ShooterAnimInstance.cpp
+E:\Shooter\Source\Shooter\Private\Character\ShooterAnimInstance.cpp(14): warning C5038: data member 'UShooterAnimInstance::LastMovementOffsetYaw' will be initialized after data member 'UShooterAnimInstance::CharacterPitch'
+  [4/22] Compile [x64] BaseEnemy.cpp
+  [5/22] Compile [x64] ShooterCharacter.gen.cpp
+  [6/22] Compile [x64] CharacterTypes.gen.cpp
+  [7/22] Compile [x64] ShooterGameModeBase.cpp
+  [8/22] Compile [x64] Weapon.gen.cpp
+  [9/22] Compile [x64] ShooterAnimInstance.gen.cpp
+  [10/22] Compile [x64] ShooterGameModeBase.gen.cpp
+  [11/22] Compile [x64] Weapon.cpp
+  [12/22] Compile [x64] Shooter.cpp
+  [13/22] Compile [x64] BaseEnemyAIController.cpp
+  [14/22] Compile [x64] Shooter.init.gen.cpp
+  [15/22] Compile [x64] Item.gen.cpp
+  [16/22] Compile [x64] Item.cpp
+  [17/22] Compile [x64] BaseEnemyAIController.gen.cpp
+  [18/22] Compile [x64] BaseEnemy.gen.cpp
+  [19/22] Compile [x64] ShooterCharacter.cpp
+E:\Shooter\Source\Shooter\Private\Character\ShooterCharacter.cpp(25): warning C5038: data member 'AShooterCharacter::DamageUltimate' will be initialized after data member 'AShooterCharacter::UltimateTimer'
+E:\Shooter\Source\Shooter\Private\Character\ShooterCharacter.cpp(28): warning C5038: data member 'AShooterCharacter::UltimateTimer' will be initialized after data member 'AShooterCharacter::UltimateTimerTriggered'
+E:\Shooter\Source\Shooter\Private\Character\ShooterCharacter.cpp(33): warning C5038: data member 'AShooterCharacter::CameraZoomedFOV' will be initialized after data member 'AShooterCharacter::ZoomInterpSpeed'
+E:\Shooter\Source\Shooter\Private\Character\ShooterCharacter.cpp(34): warning C5038: data member 'AShooterCharacter::ZoomInterpSpeed' will be initialized after data member 'AShooterCharacter::CrosshairSpreadMultiplier'
+E:\Shooter\Source\Shooter\Private\Character\ShooterCharacter.cpp(45): warning C5038: data member 'AShooterCharacter::bFiringBullet' will be initialized after data member 'AShooterCharacter::bCrouched'
+E:\Shooter\Source\Shooter\Private\Character\ShooterCharacter.cpp(48): warning C5038: data member 'AShooterCharacter::bCrouched' will be initialized after data member 'AShooterCharacter::CrouchingCapsuleHalfHeight'
+E:\Shooter\Source\Shooter\Private\Character\ShooterCharacter.cpp(50): warning C5038: data member 'AShooterCharacter::StandingCapsuleHalfHeight' will be initialized after data member 'AShooterCharacter::LevelIsRotating'
+  [20/22] Link [x64] UnrealEditor-Shooter.dll
+     Creating library E:\Shooter\Intermediate\Build\Win64\x64\UnrealEditor\Development\Shooter\UnrealEditor-Shooter.suppressed.lib and object E:\Shooter\Intermediate\Build\Win64\x64\UnrealEditor\Development\Shooter\UnrealEditor-Shooter.suppressed.exp
+  [21/22] Link [x64] UnrealEditor-Shooter.lib
+     Creating library E:\Shooter\Intermediate\Build\Win64\x64\UnrealEditor\Development\Shooter\UnrealEditor-Shooter.lib and object E:\Shooter\Intermediate\Build\Win64\x64\UnrealEditor\Development\Shooter\UnrealEditor-Shooter.exp
+  [22/22] WriteMetadata ShooterEditor.target
+  Total time in Parallel executor: 73.55 seconds
+  Total execution time: 89.18 seconds

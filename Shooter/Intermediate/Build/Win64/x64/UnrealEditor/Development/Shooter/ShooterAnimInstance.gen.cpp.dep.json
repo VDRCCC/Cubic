@@ -1,0 +1,16 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\shooter\\intermediate\\build\\win64\\unrealeditor\\inc\\shooter\\uht\\shooteraniminstance.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\shooter\\intermediate\\build\\win64\\x64\\shootereditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_1.h.pch",
+        "Includes": [
+            "e:\\shooter\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\shooter\\definitions.shooter.h",
+            "e:\\shooter\\source\\shooter\\public\\character\\shooteraniminstance.h",
+            "e:\\shooter\\source\\shooter\\public\\character\\charactertypes.h",
+            "e:\\shooter\\intermediate\\build\\win64\\unrealeditor\\inc\\shooter\\uht\\shooteraniminstance.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
