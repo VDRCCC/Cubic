@@ -1,0 +1,27 @@
+# Unreal Engine: everything below is regenerated automatically, so it never belongs in git.
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+Build/
+**/Binaries/
+**/Intermediate/
+**/Saved/
+**/DerivedDataCache/
+
+# Visual Studio / Rider / VS Code
+.vs/
+.vscode/
+.idea/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.ipch
+*.pch
+
+# OS junk
+.DS_Store
+Thumbs.db
